@@ -7,5 +7,6 @@
   </div>
 <% end %>
 
-
-<p class="alert-danger"><%= alert %></p>
+<% if alert %>
+  <p class="alert alert-danger"><%= alert %></p>
+<% end %>

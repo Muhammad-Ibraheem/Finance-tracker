@@ -64,3 +64,7 @@ gem 'devise-bootstrap-views', '~> 1.1'
 gem 'iex-ruby-client', '~> 1.6'
 
 gem 'rubocop', '~> 1.26'
+
+gem 'pry', '~> 0.14.1'
+
+gem 'font-awesome-rails', '~> 4.7'

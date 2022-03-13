@@ -9,7 +9,7 @@
       </div>
       <div class="col-sm-3 no-left-padding">
         <%= button_tag type: :submit, class: "btn btn-success btn-size" do %>
-          <%= 'Search' %>
+          <%= fa_icon 'search 2x' %>
         <% end %>
       </div>
     </div>
@@ -19,3 +19,6 @@
 <div id="results">
 
 </div>
+<% if !@tracked_stocks.empty? %>
+  <%= render 'stocks/list' %>
+<% end %>
